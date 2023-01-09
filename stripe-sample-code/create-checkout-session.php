@@ -6,7 +6,7 @@ require 'vendor/autoload.php';
 
 header('Content-Type: application/json');
 
-$YOUR_DOMAIN = 'https://yuusultu.github.io/stripe/public';
+$YOUR_DOMAIN = 'https://yuusultu.github.io/stripe-sample-code/stripe/public';
 
 try {
   $prices = \Stripe\Price::all([

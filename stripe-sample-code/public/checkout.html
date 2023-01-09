@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Subscribe to a cool new product</title>
+     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
     <script src="https://polyfill.io/v3/polyfill.min.js?version=3.52.1&features=fetch"></script>
     <script src="https://js.stripe.com/v3/"></script>
   </head>
@@ -20,12 +20,12 @@
         </svg>
         <div class="description">
           <h3>test plan</h3>
-          <h5>–ˆŒ20000‰~</h5>
+          <h5>æœˆé¡20000å††</h5>
         </div>
       </div>
-      <form action="/create-checkout-session.php" method="POST">
+      <form action="../create-checkout-session.php" method="POST">
         <!-- Add a hidden field with the lookup_key of your Price -->
-        <input type="hidden" name="lookup_key" value="{{PRICE_LOOKUP_KEY}}" />
+        <input type="hidden" name="lookup_key" value="price_1MOBiGKzxF8FfYQJtyUUr5Jj" />
         <button id="checkout-and-portal-button" type="submit">Checkout</button>
       </form>
     </section>
